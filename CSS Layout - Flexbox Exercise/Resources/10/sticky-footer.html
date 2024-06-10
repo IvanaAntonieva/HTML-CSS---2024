@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font: 14px/1.5 Lato, sans-serif;        
+        }
+
+        div {
+            border: 2px solid green;
+            padding: 2em;
+            justify-content: space-between;
+            display: flex;
+            gap: 2em;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        div > * {
+            border: 2px solid blue;
+            padding: 2em;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>Header</header>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </div>    
+</body>
+</html>

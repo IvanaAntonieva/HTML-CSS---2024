@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background: #eee;
+    font: 14px/1.5em Lato, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    max-width: 625px;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+}
+
+article > * {
+    margin: 1em;
+}
+
+ul {
+    padding-left: 2em;
+}
