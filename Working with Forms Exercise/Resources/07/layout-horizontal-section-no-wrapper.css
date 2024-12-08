@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px/1.5 Lato, sans-serif;
+}
+
+body, input, select, button {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+    border: 2px solid green;
+}
+
+.section {
+    padding: 2em 30ch;
+    border: 2px solid blue;
+}
+
+.section + .section {
+    margin-top: 2em;
+}
+
+.section p:first-child {
+    font-weight: bold;
+}
+
+p:not(:last-child) {
+    padding-bottom: 1.5em;
+}
