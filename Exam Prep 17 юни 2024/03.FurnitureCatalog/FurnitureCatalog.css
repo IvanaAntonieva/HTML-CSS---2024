@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 "PT Sans", sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 {font-size: 2.4em;}
+h2 {font-size: 2.0em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1.0em;}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.flex-columns {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-columns.c2 > * {
+    flex: 0 0 45%;
+}
+
+.flex-columns.c3 > * {
+    flex: 0 0 30%;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-position: center -19em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
+
+.section .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section .wrapper.narrow {
+    max-width: 10 00px;
+}
+
+.site-banner,
+.site-about,
+.site-catalog header {
+    text-align: center;
+}
+
+.site-catalog header {
+    text-align: center;
+}
+
+.site-header .site-title a {
+    display: block;
+    width: 7em;
+    height: 4em;
+    background: url('images/logo.png');
+    background-size: contain;
+    text-indent: -100vw;
+    overflow: hidden;
+}
+
+.site-banner .wrapper {
+    padding: 6em 0 4em 0;
+}
+
+.site-banner .wrapper h2 {
+    padding-bottom: 1rem;
+}
+
+.site-banner .wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    font-weight: bold;
+    border-radius: 0.3em;
+    color: #666;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+}
+
+.site-catalog .wrapper {
+    padding: 1em 0 2em 0;
+}
+
+.site-catalog header {
+    padding-bottom: 1.5em;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.site-catalog {
+    background: #60ACC1;
+}
+
+.site-catalog header h3 {
+    font-size: 1.2em;
+}
+
+.site-catalog .flex-columns.c2  {
+    gap: 11em;
+}
+
+.site-catalog .flex-columns.c2 article {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    position: relative;
+}
+
+.site-catalog .flex-columns.c2 article::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    transform: translate(-50%);
+    width: 20px;
+    height: 100%;
+    background-color: #60ACC1;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.site-catalog .flex-columns.c2 article > * {
+    flex: 0 0 50%
+}
+
+.site-catalog .flex-columns.c2 article h4 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.site-catalog .flex-columns.c2 article .media {
+    overflow: hidden;
+    background: #000;
+    position: relative;
+}
+
+.site-catalog .flex-columns.c2 article .media img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+.site-catalog .flex-columns.c2 article section {
+    background: #fff;
+    padding: 3em 2em;
+}
+
+.site-catalog .flex-columns.c3 {
+    gap: 3em;
+}
+
+.site-catalog .flex-columns.c3 img {
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+}
+
+.site-furniture {
+    background: #fff;
+}
+
+.site-furniture .wrapper {
+    padding: 3em 0;
+}
+
+.site-furniture .flex-columns.c3 {
+    gap: 2em;
+}
+
+.site-furniture .flex-columns.c3 > * {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.site-furniture .flex-columns.c3 img {
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+}
+
+.site-furniture .flex-columns.c3 h4 {
+    font-size: 1.2em;
+}
+
+.site-about .wrapper {
+    padding: 2em 2em;
+    opacity: 0.7;
+}
+
+.site-about .wrapper header {
+    padding-bottom: 2em;
+}
+
+.site-about .wrapper header h3 {
+    font-size: 1.2em;
+}
+
+.site-about .wrapper header p {
+    font-style: italic;
+}
+
+.site-about .wrapper p {
+    max-width: 100ch;
+    margin: 0 auto;
+}
+
+.site-footer {
+    background: #2D333C;
+    color: #DDD;
+    text-align: center;
+}
+
+.site-footer .wrapper {
+    padding: 1em 0;
+}
+
+.site-catalog {
+    background: #60ACC1;
+}
